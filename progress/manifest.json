@@ -1,0 +1,709 @@
+{
+  "frames": [
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:02:18.781290+00:00",
+      "elapsedSeconds": 1640.9,
+      "stage": "Wave field, volumetric clouds and reflective glass",
+      "frame": "002-water-clouds-reflections.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:00:41.413Z",
+      "tokens": {
+        "input_tokens": 2758970,
+        "cached_input_tokens": 2600960,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26128,
+        "reasoning_output_tokens": 5295,
+        "total_tokens": 2785098
+      },
+      "uncachedInputTokens": 158010,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:08:22.370055+00:00",
+      "elapsedSeconds": 2004.5,
+      "stage": "Detailed three-masted frigate, rigging and Verlet cloth sails",
+      "frame": "003-frigate-and-sail-physics.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:02:54.856Z",
+      "tokens": {
+        "input_tokens": 3388213,
+        "cached_input_tokens": 3223936,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 28461,
+        "reasoning_output_tokens": 5916,
+        "total_tokens": 3416674
+      },
+      "uncachedInputTokens": 164277,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:16:04.920035+00:00",
+      "elapsedSeconds": 2467.0,
+      "stage": "Cartographer\u2019s study, carved walnut stand, cork, hanging compass and lanterns",
+      "frame": "004-room-and-nautical-instruments.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:14:23.116Z",
+      "tokens": {
+        "input_tokens": 3885243,
+        "cached_input_tokens": 3710720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 42401,
+        "reasoning_output_tokens": 8699,
+        "total_tokens": 3927644
+      },
+      "uncachedInputTokens": 174523,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:17:16.492795+00:00",
+      "elapsedSeconds": 2538.6,
+      "stage": "Corrected transparent depth layering for visible contained clouds and reduced glass glare",
+      "frame": "005-optical-layering-and-clouds.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:16:21.208Z",
+      "tokens": {
+        "input_tokens": 4239488,
+        "cached_input_tokens": 3879296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 44440,
+        "reasoning_output_tokens": 9232,
+        "total_tokens": 4283928
+      },
+      "uncachedInputTokens": 360192,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:27:09.456252+00:00",
+      "elapsedSeconds": 3131.6,
+      "stage": "Finite-depth directional spectrum, Gerstner choppiness, planar reflections and coherent self-shadowed clouds",
+      "frame": "006-ocean-and-atmospheric-physics.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:26:46.162Z",
+      "tokens": {
+        "input_tokens": 4973685,
+        "cached_input_tokens": 4601984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 56550,
+        "reasoning_output_tokens": 15153,
+        "total_tokens": 5030235
+      },
+      "uncachedInputTokens": 371701,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T06:50:09.640783+00:00",
+      "elapsedSeconds": 4511.8,
+      "stage": "First-person steering and three genuine interior compartments with furnishings",
+      "frame": "007-interiors-and-helm.jpg",
+      "tokenUsageAsOf": "2026-09-30T06:43:29.053Z",
+      "tokens": {
+        "input_tokens": 5987861,
+        "cached_input_tokens": 5592832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76860,
+        "reasoning_output_tokens": 21586,
+        "total_tokens": 6064721
+      },
+      "uncachedInputTokens": 395029,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T07:05:09.967996+00:00",
+      "elapsedSeconds": 5412.1,
+      "stage": "Breathing blue whale, depth-based water refraction, aged dip pen, ticking chronometer and cabin wear",
+      "frame": "008-whale-and-period-desk.jpg",
+      "tokenUsageAsOf": "2026-09-30T07:05:09.035Z",
+      "tokens": {
+        "input_tokens": 7639927,
+        "cached_input_tokens": 7205120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 102376,
+        "reasoning_output_tokens": 30387,
+        "total_tokens": 7742303
+      },
+      "uncachedInputTokens": 434807,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T07:12:07.293058+00:00",
+      "elapsedSeconds": 5829.4,
+      "stage": "Twenty-one-stop cinematic guided tour with explanatory captions and world-space detail pointers",
+      "frame": "009-guided-inspection-tour.jpg",
+      "tokenUsageAsOf": "2026-09-30T07:12:06.101Z",
+      "tokens": {
+        "input_tokens": 8406749,
+        "cached_input_tokens": 7964800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 110466,
+        "reasoning_output_tokens": 33002,
+        "total_tokens": 8517215
+      },
+      "uncachedInputTokens": 441949,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T07:48:52.653736+00:00",
+      "elapsedSeconds": 8034.8,
+      "stage": "Laid three-strand hemp with fiber relief, whale tracking shots, and performance baseline preparation",
+      "frame": "010-fiber-rope-and-whale-tracking.jpg",
+      "tokenUsageAsOf": "2026-09-30T07:41:45.386Z",
+      "tokens": {
+        "input_tokens": 12106821,
+        "cached_input_tokens": 11504896,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 123309,
+        "reasoning_output_tokens": 44305,
+        "total_tokens": 12230130
+      },
+      "uncachedInputTokens": 601925,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T08:14:21.473664+00:00",
+      "elapsedSeconds": 9563.6,
+      "stage": "Correct-sign Stokes crest physics, persistent advected foam, GGX specular water and exact bottle-boundary alignment",
+      "frame": "011-storm-water-correction.jpg",
+      "tokenUsageAsOf": "2026-09-30T08:14:21.404Z",
+      "tokens": {
+        "input_tokens": 15332437,
+        "cached_input_tokens": 14669312,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 146131,
+        "reasoning_output_tokens": 58418,
+        "total_tokens": 15478568
+      },
+      "uncachedInputTokens": 663125,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T08:24:17.560679+00:00",
+      "elapsedSeconds": 10159.7,
+      "stage": "Controlled high-detail benchmark with 360 measured frames, CPU submission timing and GPU timer queries",
+      "frame": "012-performance-baseline.jpg",
+      "tokenUsageAsOf": "2026-09-30T08:17:49.888Z",
+      "tokens": {
+        "input_tokens": 15672441,
+        "cached_input_tokens": 15003904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 149942,
+        "reasoning_output_tokens": 62013,
+        "total_tokens": 15822383
+      },
+      "uncachedInputTokens": 668537,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T08:41:36.051579+00:00",
+      "elapsedSeconds": 11198.2,
+      "stage": "Storm foam now forms only at breaking compression and persists as sparse advected streaks; benchmark camera isolation fixed",
+      "frame": "013-breaking-foam-and-underwater-inspection.jpg",
+      "tokenUsageAsOf": "2026-09-30T08:39:33.652Z",
+      "tokens": {
+        "input_tokens": 19628887,
+        "cached_input_tokens": 18930176,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 173116,
+        "reasoning_output_tokens": 76706,
+        "total_tokens": 19802003
+      },
+      "uncachedInputTokens": 698711,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T09:28:32.001978+00:00",
+      "elapsedSeconds": 14014.1,
+      "stage": "Profiling pass reuse \u00b7 preserved high-detail geometry and optics",
+      "frame": "014-pass-reuse-and-detail-batching.jpg",
+      "tokenUsageAsOf": "2026-09-30T09:27:40.370Z",
+      "tokens": {
+        "input_tokens": 26157984,
+        "cached_input_tokens": 25303552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 213707,
+        "reasoning_output_tokens": 109116,
+        "total_tokens": 26371691
+      },
+      "uncachedInputTokens": 854432,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T09:33:37.725903+00:00",
+      "elapsedSeconds": 14319.8,
+      "stage": "Storm reference correction \u00b7 55 m swell, wind ripples, darker water and filament foam",
+      "frame": "015-reference-informed-storm-water.jpg",
+      "tokenUsageAsOf": "2026-09-30T09:33:35.378Z",
+      "tokens": {
+        "input_tokens": 26779017,
+        "cached_input_tokens": 25905408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 220362,
+        "reasoning_output_tokens": 111747,
+        "total_tokens": 26999379
+      },
+      "uncachedInputTokens": 873609,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T09:45:13.902529+00:00",
+      "elapsedSeconds": 15016.0,
+      "stage": "Replacing rounded wave geometry \u00b7 full 128\u00b2 GPU wind spectrum and inverse FFT",
+      "frame": "016-gpu-spectral-wave-geometry.jpg",
+      "tokenUsageAsOf": "2026-09-30T09:45:13.879Z",
+      "tokens": {
+        "input_tokens": 27786381,
+        "cached_input_tokens": 26892288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 233753,
+        "reasoning_output_tokens": 118909,
+        "total_tokens": 28020134
+      },
+      "uncachedInputTokens": 894093,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T09:48:27.774816+00:00",
+      "elapsedSeconds": 15209.9,
+      "stage": "Inspecting spectral crests \u00b7 correcting excessive foam coverage",
+      "frame": "017-storm-crest-and-foam-inspection.jpg",
+      "tokenUsageAsOf": "2026-09-30T09:47:15.958Z",
+      "tokens": {
+        "input_tokens": 28582284,
+        "cached_input_tokens": 27668608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 235475,
+        "reasoning_output_tokens": 120084,
+        "total_tokens": 28817759
+      },
+      "uncachedInputTokens": 913676,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T10:28:38.165021+00:00",
+      "elapsedSeconds": 17620.3,
+      "stage": "Collision-aware ship \u00b7 capsule-constrained cloth, dry-cabin rain mask and solid-geometry walking",
+      "frame": "018-rigging-clearance-and-collisions.jpg",
+      "tokenUsageAsOf": "2026-09-30T10:24:32.414Z",
+      "tokens": {
+        "input_tokens": 33116863,
+        "cached_input_tokens": 32151040,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 275791,
+        "reasoning_output_tokens": 148668,
+        "total_tokens": 33392654
+      },
+      "uncachedInputTokens": 965823,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T10:33:02.941092+00:00",
+      "elapsedSeconds": 17885.1,
+      "stage": "Whale refinement \u00b7 tapered flexible foil flukes and recessed eyes with soft eyelid folds",
+      "frame": "019-whale-flukes-and-eyes.jpg",
+      "tokenUsageAsOf": "2026-09-30T10:28:38.179Z",
+      "tokens": {
+        "input_tokens": 33343032,
+        "cached_input_tokens": 32369792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 280329,
+        "reasoning_output_tokens": 152286,
+        "total_tokens": 33623361
+      },
+      "uncachedInputTokens": 973240,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T10:45:00.760904+00:00",
+      "elapsedSeconds": 18602.9,
+      "stage": "Branding installed \u00b7 inspecting helm clearances and the refined whale at high detail",
+      "complete": false,
+      "frame": "020-call-me-sensei-branding.jpg",
+      "tokenUsageAsOf": "2026-09-30T10:43:56.344Z",
+      "tokens": {
+        "input_tokens": 36559150,
+        "cached_input_tokens": 35554048,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 296060,
+        "reasoning_output_tokens": 163460,
+        "total_tokens": 36855210
+      },
+      "uncachedInputTokens": 1005102,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T10:56:08.275620+00:00",
+      "elapsedSeconds": 19270.4,
+      "stage": "Collision broadphase optimization \u00b7 retaining triangle-level contact checks and high detail",
+      "complete": false,
+      "frame": "021-final-visual-inspection.jpg",
+      "tokenUsageAsOf": "2026-09-30T10:56:07.473Z",
+      "tokens": {
+        "input_tokens": 38422807,
+        "cached_input_tokens": 37399552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 308333,
+        "reasoning_output_tokens": 171893,
+        "total_tokens": 38731140
+      },
+      "uncachedInputTokens": 1023255,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T11:28:25.609668+00:00",
+      "elapsedSeconds": 21207.7,
+      "stage": "Integrated whale folds \u00b7 subtle geometric recesses and shared cool underwater shading",
+      "complete": false,
+      "frame": "022-integrated-ventral-folds.jpg",
+      "tokenUsageAsOf": "2026-09-30T11:27:12.400Z",
+      "tokens": {
+        "input_tokens": 43661206,
+        "cached_input_tokens": 42600192,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 337512,
+        "reasoning_output_tokens": 196780,
+        "total_tokens": 43998718
+      },
+      "uncachedInputTokens": 1061014,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T12:35:58.846950+00:00",
+      "elapsedSeconds": 25261.0,
+      "stage": "TSL migration: shared FFT, ocean, clouds, rain, spray and post-processing implemented; testing both engines",
+      "complete": false,
+      "frame": "023-tsl-migration.jpg",
+      "tokenUsageAsOf": "2026-09-30T12:35:43.805Z",
+      "tokens": {
+        "input_tokens": 52451044,
+        "cached_input_tokens": 51194752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 398344,
+        "reasoning_output_tokens": 230702,
+        "total_tokens": 52849388
+      },
+      "uncachedInputTokens": 1256292,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T13:04:40.950440+00:00",
+      "elapsedSeconds": 26983.1,
+      "stage": "Shared TSL migration works on both backends; tab toggle and full-optics Cinematic mode under test",
+      "complete": false,
+      "frame": "024-webgpu-tabs-optics.jpg",
+      "tokenUsageAsOf": "2026-09-30T13:03:11.319Z",
+      "tokens": {
+        "input_tokens": 60659937,
+        "cached_input_tokens": 59109760,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 420928,
+        "reasoning_output_tokens": 244280,
+        "total_tokens": 61080865
+      },
+      "uncachedInputTokens": 1550177,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T13:32:51.273843+00:00",
+      "elapsedSeconds": 28673.4,
+      "stage": "WebGPU/WebGL2 tabs verified; Cinematic reflections and contact shadows working; optimizing completed-frame performance",
+      "complete": false,
+      "frame": "025-cinematic-validated.jpg",
+      "tokenUsageAsOf": "2026-09-30T13:26:40.007Z",
+      "tokens": {
+        "input_tokens": 67340092,
+        "cached_input_tokens": 65743360,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 436884,
+        "reasoning_output_tokens": 255996,
+        "total_tokens": 67776976
+      },
+      "uncachedInputTokens": 1596732,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T14:23:36.396803+00:00",
+      "elapsedSeconds": 31718.5,
+      "stage": "Cinematic GPU ablation complete; starting quality-gated optimization iterations",
+      "complete": false,
+      "frame": "026-optimization-baseline.jpg",
+      "tokenUsageAsOf": "2026-09-30T14:22:40.878Z",
+      "tokens": {
+        "input_tokens": 79528182,
+        "cached_input_tokens": 77863552,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 470636,
+        "reasoning_output_tokens": 279774,
+        "total_tokens": 79998818
+      },
+      "uncachedInputTokens": 1664630,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T14:58:28.681942+00:00",
+      "elapsedSeconds": 33810.8,
+      "stage": "Full-quality GPU optimization: SSR early rejection; cloud and water precision candidates",
+      "complete": false,
+      "frame": "027-gpu-ssr.jpg",
+      "tokenUsageAsOf": "2026-09-30T14:58:26.740Z",
+      "tokens": {
+        "input_tokens": 85071848,
+        "cached_input_tokens": 83306240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 490024,
+        "reasoning_output_tokens": 291569,
+        "total_tokens": 85561872
+      },
+      "uncachedInputTokens": 1765608,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:04:19.084759+00:00",
+      "elapsedSeconds": 34161.2,
+      "stage": "Water display precision verified numerically; testing temporal cloud-light reuse",
+      "complete": false,
+      "frame": "029-half-float-water.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:04:18.927Z",
+      "tokens": {
+        "input_tokens": 86233485,
+        "cached_input_tokens": 84436352,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 493906,
+        "reasoning_output_tokens": 292913,
+        "total_tokens": 86727391
+      },
+      "uncachedInputTokens": 1797133,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:07:50.967822+00:00",
+      "elapsedSeconds": 34373.1,
+      "stage": "World-space cloud-light amortization: temporal fidelity audited",
+      "complete": false,
+      "frame": "030-cloud-amortization.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:07:00.332Z",
+      "tokens": {
+        "input_tokens": 86987119,
+        "cached_input_tokens": 85180800,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 495926,
+        "reasoning_output_tokens": 293561,
+        "total_tokens": 87483045
+      },
+      "uncachedInputTokens": 1806319,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:15:24.399563+00:00",
+      "elapsedSeconds": 34826.5,
+      "stage": "Refined cache passes: 0.643% lighting RMS; phase-cached buoyancy test",
+      "complete": false,
+      "frame": "031-refined-clouds.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:15:12.642Z",
+      "tokens": {
+        "input_tokens": 88073717,
+        "cached_input_tokens": 86254592,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 502772,
+        "reasoning_output_tokens": 296234,
+        "total_tokens": 88576489
+      },
+      "uncachedInputTokens": 1819125,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:17:57.845047+00:00",
+      "elapsedSeconds": 34980.0,
+      "stage": "Cloud audit passed; CPU and transform optimizations under test",
+      "complete": false,
+      "frame": "032-transform-cache.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:17:39.085Z",
+      "tokens": {
+        "input_tokens": 88509104,
+        "cached_input_tokens": 86683008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 504434,
+        "reasoning_output_tokens": 297602,
+        "total_tokens": 89013538
+      },
+      "uncachedInputTokens": 1826096,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:22:06.552981+00:00",
+      "elapsedSeconds": 35228.7,
+      "stage": "GPU and CPU candidates: visual checks remain below 1%",
+      "complete": false,
+      "frame": "033-fft-reuse.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:21:37.918Z",
+      "tokens": {
+        "input_tokens": 89414878,
+        "cached_input_tokens": 87581952,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 507277,
+        "reasoning_output_tokens": 299520,
+        "total_tokens": 89922155
+      },
+      "uncachedInputTokens": 1832926,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:31:00.192352+00:00",
+      "elapsedSeconds": 35762.3,
+      "stage": "Four consecutive sub-5% candidates; prepacked FFT input is next",
+      "complete": false,
+      "frame": "034-final-optimization.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:30:59.063Z",
+      "tokens": {
+        "input_tokens": 92214492,
+        "cached_input_tokens": 90177152,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 514315,
+        "reasoning_output_tokens": 303445,
+        "total_tokens": 92728807
+      },
+      "uncachedInputTokens": 2037340,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:36:17.584568+00:00",
+      "elapsedSeconds": 36079.7,
+      "stage": "Optimization plateau reached; final WebGPU/WebGL2, quality and tour validation",
+      "complete": false,
+      "frame": "035-plateau-complete.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:35:21.099Z",
+      "tokens": {
+        "input_tokens": 93494174,
+        "cached_input_tokens": 91449984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 517061,
+        "reasoning_output_tokens": 305519,
+        "total_tokens": 94011235
+      },
+      "uncachedInputTokens": 2044190,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:44:00.732223+00:00",
+      "elapsedSeconds": 36542.8,
+      "stage": "Final mode checks: WebGPU 41.7 FPS Cinematic / 54.5 FPS High; testing WebGL2",
+      "complete": false,
+      "frame": "036-backend-validation.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:43:22.340Z",
+      "tokens": {
+        "input_tokens": 95220033,
+        "cached_input_tokens": 93163904,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 523483,
+        "reasoning_output_tokens": 309182,
+        "total_tokens": 95743516
+      },
+      "uncachedInputTokens": 2056129,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T15:48:56.281638+00:00",
+      "elapsedSeconds": 36838.4,
+      "stage": "Both TSL backends render; checking the 23-shot guided tour and interactive controls",
+      "complete": false,
+      "frame": "037-cinematic-tour.jpg",
+      "tokenUsageAsOf": "2026-09-30T15:48:35.994Z",
+      "tokens": {
+        "input_tokens": 96220374,
+        "cached_input_tokens": 94157184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 526507,
+        "reasoning_output_tokens": 311338,
+        "total_tokens": 96746881
+      },
+      "uncachedInputTokens": 2063190,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T16:11:44.664602+00:00",
+      "elapsedSeconds": 38206.8,
+      "stage": "Tour framing repaired; whale waits for keel clearance before surfacing",
+      "complete": false,
+      "frame": "038-tour-framing-fix.jpg",
+      "tokenUsageAsOf": "2026-09-30T16:10:21.291Z",
+      "tokens": {
+        "input_tokens": 99445694,
+        "cached_input_tokens": 97322112,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 542957,
+        "reasoning_output_tokens": 323663,
+        "total_tokens": 99988651
+      },
+      "uncachedInputTokens": 2123582,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    },
+    {
+      "startedAt": "2026-09-30T05:34:57.889Z",
+      "capturedAt": "2026-09-30T16:32:01.201218+00:00",
+      "elapsedSeconds": 39423.3,
+      "stage": "Final delivery: responsive engine tabs, report, screenshots and accounting",
+      "complete": false,
+      "frame": "039-final-scene.jpg",
+      "tokenUsageAsOf": "2026-09-30T16:30:40.990Z",
+      "tokens": {
+        "input_tokens": 105241947,
+        "cached_input_tokens": 103081472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 557664,
+        "reasoning_output_tokens": 333377,
+        "total_tokens": 105799611
+      },
+      "uncachedInputTokens": 2160475,
+      "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+    }
+  ],
+  "accounting": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event.",
+  "final": {
+    "startedAt": "2026-09-30T05:34:57.889Z",
+    "capturedAt": "2026-09-30T17:09:39.648926+00:00",
+    "elapsedSeconds": 41681.8,
+    "stage": "Complete: delivered scene, report and chronologically captioned timelapse",
+    "complete": true,
+    "frame": null,
+    "tokenUsageAsOf": "2026-09-30T17:05:18.100Z",
+    "tokens": {
+      "input_tokens": 110393459,
+      "cached_input_tokens": 108187776,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 583520,
+      "reasoning_output_tokens": 354954,
+      "total_tokens": 110976979
+    },
+    "uncachedInputTokens": 2205683,
+    "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+  }
+}

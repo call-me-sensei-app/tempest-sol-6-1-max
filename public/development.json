@@ -1,0 +1,19 @@
+{
+  "startedAt": "2026-09-30T05:34:57.889Z",
+  "capturedAt": "2026-09-30T17:09:39.648926+00:00",
+  "elapsedSeconds": 41681.8,
+  "stage": "Complete: delivered scene, report and chronologically captioned timelapse",
+  "complete": true,
+  "frame": null,
+  "tokenUsageAsOf": "2026-09-30T17:05:18.100Z",
+  "tokens": {
+    "input_tokens": 110393459,
+    "cached_input_tokens": 108187776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 583520,
+    "reasoning_output_tokens": 354954,
+    "total_tokens": 110976979
+  },
+  "uncachedInputTokens": 2205683,
+  "note": "Cumulative input re-counts context on each request and includes cached input. Reasoning tokens are a subset of output. Snapshot excludes tokens generated after the latest usage event."
+}

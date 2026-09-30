@@ -1,0 +1,25 @@
+{
+  "frame": "12-report-verified.jpg",
+  "stage": "HTML report verified in the browser; original report snapshot preserved",
+  "capturedAt": "2026-09-30T22:47:09.560582+00:00",
+  "elapsedSeconds": 2539.333303,
+  "tokenUsageAsOf": "2026-09-30T22:46:00.565Z",
+  "cumulativeTaskTokens": {
+    "input_tokens": 129325106,
+    "cached_input_tokens": 126112896,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 655819,
+    "reasoning_output_tokens": 399449,
+    "total_tokens": 129980925
+  },
+  "followupTokensSinceFirstCapture": {
+    "input_tokens": 9841525,
+    "cached_input_tokens": 9696128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45418,
+    "reasoning_output_tokens": 20692,
+    "total_tokens": 9886943
+  },
+  "complete": true,
+  "note": "Follow-up elapsed time is measured since the first saved screenshot. Input totals include repeated cached context. Reasoning tokens are a subset of output. Usage is the latest logged metadata at or before capture, not an estimate of unreported in-flight tokens. Original final-report snapshot remains unchanged."
+}

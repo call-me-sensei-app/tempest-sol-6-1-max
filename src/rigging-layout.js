@@ -1,0 +1,7 @@
+// All rigging is defined in ship-local space, shared with clearance tests.
+export const HELM_CENTER=[-1.12,.84,0];
+export const HELM_CLEAR_RADIUS=.15;
+export const MASTS=[{x:-.82,top:2.51,width:.82,levels:[1.72,2.13,2.45]},{x:0,top:2.78,width:1.13,levels:[1.79,2.28,2.68]},{x:.82,top:2.48,width:.98,levels:[1.65,2.13,2.40]}];
+export function standingLines(halfWidth){const lines=[];for(let mi=0;mi<MASTS.length;mi++){const m=MASTS[mi],baseY=mi===0?.70:.59;for(const side of [-1,1]){const top=[m.x-.045,m.top-.48,side*.03];const feet=[-.48,-.39,-.30,-.21].map(dx=>{const x=m.x+dx;return [x,baseY,side*(mi===0?.335:halfWidth(x)*.98)];});for(const foot of feet)lines.push({a:foot,b:top,r:.0045,name:'shroud',mast:mi});for(let j=1;j<=15;j++){const t=j/16,mix=(a,b)=>a.map((v,i)=>v+(b[i]-v)*t);lines.push({a:mix(feet[0],top),b:mix(feet[3],top),r:.0034,name:'ratline',mast:mi});}const aftX=Math.max(-1.43,m.x-.65);lines.push({a:[m.x,m.top-.09,side*.015],b:[aftX,mi===0?.70:.63,side*(mi===0?.335:halfWidth(aftX)*.98)],r:.005,name:'backstay',mast:mi});}
+ const next=MASTS[mi+1];lines.push({a:[m.x,m.top-.07,0],b:next?[next.x,.56,0]:[2.16,.93,0],r:.0045,name:'forestay',mast:mi});}return lines;}
+export function segmentDistance(point,a,b){const d=b.map((v,i)=>v-a[i]),length=d.reduce((s,v)=>s+v*v,0),t=Math.max(0,Math.min(1,d.reduce((s,v,i)=>s+(point[i]-a[i])*v,0)/length));return Math.hypot(...point.map((v,i)=>v-a[i]-d[i]*t));}

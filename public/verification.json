@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "name": "Automated tests",
+      "result": "All 17 numerical, rigging-clearance, surfacing-clearance and layout tests passed."
+    },
+    {
+      "name": "TypeScript and production build",
+      "result": "Passed; bundle warning retained (1.13 MB JS / 326 KB gzip). No compile errors."
+    },
+    {
+      "name": "Latest Three.js",
+      "result": "npm registry rechecked: 0.186.1, on 1 October 2026 JST."
+    },
+    {
+      "name": "Optimization convergence",
+      "result": "Five consecutive distinct, image/numerical-accepted candidates below 5% improvement vs fastest prior accepted incumbent."
+    },
+    {
+      "name": "Temporal cloud lighting",
+      "result": "Four moving phases evaluated against full shadow integration: maximum phase RMS 0.653%, mean error 0.228%. Low-resolution candidate rejected."
+    },
+    {
+      "name": "Wave precision",
+      "result": "FFT spot error 1.066e-7; final RGBA16F display RMS 0.0415% versus RGBA32F FFT."
+    },
+    {
+      "name": "TSL backend image comparison \u2014 high",
+      "result": "7/9 cross-backend views pass the strict <1% gate; worst SSIM loss 1.307%. Both backends render and FFT audits pass; pixel-identical cross-backend parity is not claimed."
+    },
+    {
+      "name": "TSL backend image comparison \u2014 cine",
+      "result": "5/9 cross-backend views pass the strict <1% gate; worst SSIM loss 1.411%. Both backends render and FFT audits pass; pixel-identical cross-backend parity is not claimed."
+    },
+    {
+      "name": "Guided camera tour",
+      "result": "All 23 labeled stops reached and captured after settling on WebGPU Cinematic, with no renderer error flag. Water, rigging, whale/tail/eye/breath, pen, clock and compartments are included. Finite captures do not certify zero clipping at every possible animation state."
+    },
+    {
+      "name": "Tour correction",
+      "result": "Whale-surfacing shot re-framed from the outboard side, breath triggered after camera approach, keel-overlap surfacing suppressed, visible exhalation peak captured. Pen close-up moved clear of nearby furniture."
+    },
+    {
+      "name": "Interactive controls",
+      "result": "Boarding and all four compartments, pause/resume (wave time held at 187.010), Cinematic/High/Balanced changes and both backend tabs exercised. Weather numeric value survived switching; its restored caption was corrected."
+    },
+    {
+      "name": "Post-correction regression",
+      "result": "All nine selected-incumbent image comparisons passed after tour/surfacing fixes. Worst SSIM loss 0.1940%. FFT and four-phase cloud audits pass. Final repeat: 36.6 completed FPS Cinematic; earlier repeat 41.7, High 54.5."
+    },
+    {
+      "name": "Responsive viewport",
+      "result": "393\u00d7852 mobile viewport captured; engine tabs and controls remain available. Override reset to the natural desktop viewport. No renderer error flag after resizing."
+    },
+    {
+      "name": "WebGPU resize lifecycle repair",
+      "result": "Responsive test exposed stale destroyed transmission textures in r186. Refraction and post-processing targets are now recreated after queue draining. Repeated 393\u00d7852, 850\u00d7700 and natural desktop transitions passed with no graphics-error flag."
+    },
+    {
+      "name": "Mobile header repair",
+      "result": "Brand, both engine tabs, labeled Guided Tour and pause controls fit within 393px; status/accounting no longer overlap. Browser viewport override reset."
+    },
+    {
+      "name": "Final resize-fix regression",
+      "result": "All nine views pass after target lifecycle repair; worst SSIM loss 0.2015%. Full Cinematic repeat 42.0 completed FPS at 1280\u00d7720 / DPR1; numerics and graphics valid."
+    },
+    {
+      "name": "HTML report and timelapse",
+      "result": "HTML report opened and visually checked in the browser; Stopping rule: MET visible. 37 original checkpoints compiled into a 92.5-second captioned MP4. Both report and live scene kept open."
+    }
+  ]
+}

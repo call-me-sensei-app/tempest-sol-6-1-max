@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+artifacts/
+.img2threejs/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.log
+# One-off local builder/template maintenance, not application source.
+scripts/update-builder-tsl-rule.py
+scripts/update-report-template.py

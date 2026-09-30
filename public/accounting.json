@@ -1,0 +1,54 @@
+{
+  "startedAt": "2026-09-30T05:34:57.889Z",
+  "generatedAt": "2026-09-30T17:09:39.810572+00:00",
+  "elapsedSeconds": 41681.921572,
+  "usageAsOf": "2026-09-30T17:05:18.100Z",
+  "tokens": {
+    "input_tokens": 110393459,
+    "cached_input_tokens": 108187776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 583520,
+    "reasoning_output_tokens": 354954,
+    "total_tokens": 110976979
+  },
+  "uncachedInputTokens": 2205683,
+  "model": "GPT 6.1 Sol",
+  "reasoningEffort": "Max Effort",
+  "mode": "Not Fast",
+  "observedSettings": [
+    "{\"effort\": \"max\", \"model\": \"gpt-6.1-sol\", \"service_tier\": null}"
+  ],
+  "hypotheticalStandardApiCostUsd": 28.882306399999997,
+  "costBreakdownUsd": {
+    "uncachedInput": 5.536423999999996,
+    "cachedInput": 16.270502400000005,
+    "cacheWrites": 0.0,
+    "output": 7.0753799999999964
+  },
+  "requests": 486,
+  "longContextRequests": 167,
+  "maxPromptInputTokens": 424636,
+  "pricingSource": "https://developers.openai.com/api/docs/pricing",
+  "pricingVerifiedAt": "2026-09-30",
+  "ratesPerMillion": {
+    "short": {
+      "uncached": 2,
+      "cached": 0.1,
+      "cacheWrite": 2.5,
+      "output": 10
+    },
+    "long": {
+      "uncached": 4,
+      "cached": 0.2,
+      "cacheWrite": 5,
+      "output": 15
+    }
+  },
+  "notes": [
+    "Hypothetical model-token API cost, not a Codex subscription charge or invoice.",
+    "Input tokens re-count context on each request. Cached input is included in input totals.",
+    "Reasoning tokens are included in output; never billed a second time.",
+    "Long context rates apply to the entire request when its input exceeds 272,000 tokens.",
+    "Snapshot excludes unreported in-flight tokens and subsequent final response. External tool, hosting, tax and hardware costs are excluded."
+  ]
+}
