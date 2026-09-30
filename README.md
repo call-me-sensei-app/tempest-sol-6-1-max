@@ -2,6 +2,8 @@
 
 A code-authored Three.js ship-in-a-bottle study, with an explorable ship, period instruments, animated blue whale, wind-wave ocean, volumetric storm and a 23-stop labeled camera tour.
 
+**Live page:** [callmesensei.app/experiments/tempest-sol-6-1-max](https://callmesensei.app/experiments/tempest-sol-6-1-max)
+
 [Source on GitHub](https://github.com/call-me-sensei-app/tempest-sol-6-1-max)
 
 ## Run
