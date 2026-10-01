@@ -2,6 +2,7 @@ import * as THREE from 'three';
 import { bakeAssembly, box, mesh, namedGroup, ring, rod, rope, type V3 } from './geometry';
 import type { Materials } from './materials';
 import { seededRandom } from './simulation.js';
+import { roomOrbitBounds } from './orbit-camera.js';
 
 function drawnTexture(size:number,draw:(c:CanvasRenderingContext2D,s:number)=>void) {
   const canvas=document.createElement('canvas');canvas.width=canvas.height=size;draw(canvas.getContext('2d')!,size);
@@ -37,8 +38,8 @@ export function createRoom(m:Materials) {
   const room=new THREE.Group();room.name='The cartographer’s study';
   const staticRoom=namedGroup(room,'room architecture');
   const wall=new THREE.MeshStandardMaterial({color:'#17252a',roughness:.94});wall.name='smoked blue plaster';
-  box(staticRoom,[40,15,.3],wall,[0,6,-8.4],'study wall');box(staticRoom,[.3,15,28],wall,[-15,6,2],'left wall');box(staticRoom,[.3,15,28],wall,[15,6,2],'right wall');
-  box(staticRoom,[35,.45,25],m.walnut,[0,-.32,1.8],'old oak tabletop');
+  const backWall=box(staticRoom,[40,15,.3],wall,[0,6,-8.4],'study wall'),leftWall=box(staticRoom,[.3,15,28],wall,[-15,6,2],'left wall'),rightWall=box(staticRoom,[.3,15,28],wall,[15,6,2],'right wall');
+  const tabletop=box(staticRoom,[35,.45,25],m.walnut,[0,-.32,1.8],'old oak tabletop');
   for(let i=-4;i<=4;i++)box(staticRoom,[.012,.004,24],m.darkWood,[i*3.4,-.092,1.8],'table board seam');
   box(staticRoom,[40,2.8,.2],m.darkWood,[0,1.2,-8.15],'wainscot');
   for(let x=-14;x<=14;x+=2.5){box(staticRoom,[.055,2.65,.06],m.walnut,[x,1.2,-7.99],'wall panel stile');box(staticRoom,[2.38,.06,.04],m.walnut,[x+1.24,2.15,-7.98],'wall panel rail');}
@@ -82,9 +83,13 @@ export function createRoom(m:Materials) {
   const compassFace=compassTexture();
   const deskCompass=ring(coins,.35,.035,m.brass,[-3.5,-.025,3.4],'desk compass rim');deskCompass.rotation.x=-Math.PI/2;
   const dial=mesh(room,new THREE.CircleGeometry(.325,64),new THREE.MeshStandardMaterial({map:compassFace,roughness:.55}),[-3.5,-.008,3.4],'desk compass dial');dial.rotation.x=-Math.PI/2;
+  // Capture structural bounds BEFORE static batching removes the authored meshes.
+  room.updateMatrixWorld(true);
+  const bounds=(object:THREE.Object3D)=>new THREE.Box3().setFromObject(object);
+  const orbitBounds=roomOrbitBounds(bounds(leftWall),bounds(rightWall),bounds(backWall),bounds(shelf),bounds(tabletop));
   bakeAssembly(staticRoom);bakeAssembly(shelf);bakeAssembly(coins);
   const key=new THREE.PointLight('#f9d3a0',30,22,2);key.position.set(5.5,6.3,6);room.add(key);
-  return {root:room,lamps,compassFace,update(time:number){lamps.forEach((lamp,i)=>{lamp.flame.scale.y=1.5+Math.sin(time*7+i)*.1;lamp.light.intensity=(i?19:65)*(1+Math.sin(time*5.3+i*5)*.025);});}};
+  return {root:room,lamps,compassFace,orbitBounds,update(time:number){lamps.forEach((lamp,i)=>{lamp.flame.scale.y=1.5+Math.sin(time*7+i)*.1;lamp.light.intensity=(i?19:65)*(1+Math.sin(time*5.3+i*5)*.025);});}};
 }
 
 export function createBottleDetails(m:Materials,compassFace:THREE.Texture) {

@@ -22,6 +22,8 @@ Three.js is pinned to **0.186.1**, checked against npm on 1 October 2026 JST. Vi
 
 Cinematic is maximum detail; High, Balanced and Adaptive are deliberate lower-quality alternatives. There is no universal 60 FPS guarantee. FPS counts GPU-completed frames, with at most two frames queued.
 
+Free orbit retains full 360° horizontal rotation. A geometry-derived room-clearance volume shortens the camera boom before the walls, projecting bookcase or tabletop can hide the bottle; the selected zoom distance returns when the view opens up again. Inward zoom responds immediately at a clearance stop. This affects only free orbit, not the guided tour or ship compartments, and does not hide or simplify room geometry.
+
 The default optimization level retains the fastest fidelity-accepted measured incumbent (level 14). Later CPU/FFT experiments remain reproducible via `opt=15` through `opt=19`. Cloud light caching is WebGPU-only; the WebGL2 fallback evaluates the original shadow rays. Primary density, authored detail and cloud ray count are preserved. The cache is world-space optical depth with 2×2 update phases, not screen-space temporal reprojection. FFT intermediates stay RGBA32F; the wave display field is independently audited RGBA16F.
 
 Formal runs use fixed 1280×720, DPR1, 100% tempest, 150 warmup + 360 samples. Nine deterministic views must pass SSIM >0.99 and mean RGB error <1%, plus independent FFT and cloud-light checks. These are bounded regression metrics, not a photographic-realism or every-pixel guarantee. The acceptance sequence stops after five distinct sub-5% improvements versus the fastest quality-accepted prior incumbent. Disabled-feature diagnostics are not accepted optimizations.
